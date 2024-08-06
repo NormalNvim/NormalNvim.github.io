@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://NormalNvim.github.io/blog/</id>
+    <title>NormalNvim Blog</title>
+    <updated>2024-08-06T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://NormalNvim.github.io/blog/"/>
+    <subtitle>NormalNvim Blog</subtitle>
+    <icon>https://NormalNvim.github.io/img/logo.png</icon>
+    <entry>
+        <title type="html"><![CDATA[What is new on 4.0?]]></title>
+        <id>https://NormalNvim.github.io/blog/what-is-new-on-4-0/</id>
+        <link href="https://NormalNvim.github.io/blog/what-is-new-on-4-0/"/>
+        <updated>2024-08-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Version 4.0 comes full of good stuff]]></summary>
+        <content type="html"><![CDATA[<p>Version 4.0 comes full of good stuff</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="new-features">New features<a class="hash-link" aria-label="Direct link to New features" title="Direct link to New features" href="https://normalnvim.github.io/blog/what-is-new-on-4-0/#new-features">​</a></h2>
+<ul>
+<li>✨feat(<code>yazi</code>): New file manager as drop-in replacement for <code>ranger</code>. Written in rust and 100% async.</li>
+<li>✨feat(<code>markdown</code>): Files are now rendered on</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="minor-fixes">Minor fixes<a class="hash-link" aria-label="Direct link to Minor fixes" title="Direct link to Minor fixes" href="https://normalnvim.github.io/blog/what-is-new-on-4-0/#minor-fixes">​</a></h2>
+<p>TODO</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="minor-refactors">Minor refactors<a class="hash-link" aria-label="Direct link to Minor refactors" title="Direct link to Minor refactors" href="https://normalnvim.github.io/blog/what-is-new-on-4-0/#minor-refactors">​</a></h2>
+<p>TODO</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="credits">Credits<a class="hash-link" aria-label="Direct link to Credits" title="Direct link to Credits" href="https://normalnvim.github.io/blog/what-is-new-on-4-0/#credits">​</a></h2>
+<p>This docusaurus website uses the <a href="https://github.com/yazi-rs/yazi-rs.github.io/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">MIT</a> <a href="https://github.com/yazi-rs/yazi-rs.github.io" target="_blank" rel="noopener noreferrer">page</a> of the Yazi project as initial template.
+We are gonna add our branding over time.
+Copyright (c) 2023 yazi-rs.</p>]]></content>
+        <author>
+            <name>Zeioth</name>
+            <uri>https://github.com/zeioth</uri>
+        </author>
+    </entry>
+</feed>

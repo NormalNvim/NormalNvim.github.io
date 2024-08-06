@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"What is new on 4.0?","permalink":"/blog/what-is-new-on-4-0","unlisted":false}]}')}}]);
