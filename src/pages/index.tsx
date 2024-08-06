@@ -28,7 +28,7 @@ function HomepageHeader() {
 
 export default function Home(): JSX.Element {
 	return (
-		<Layout description="Blazing fast terminal file manager written in Rust, based on async I/O.">
+		<Layout description="A normal Neovim distribution.">
 			<HomepageHeader />
 			<main>
 				<Landing />
