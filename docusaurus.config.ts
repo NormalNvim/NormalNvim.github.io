@@ -11,7 +11,7 @@ const config: Config = {
 	baseUrl: "/",
 
 	organizationName: "NormalNvim",
-	projectName     : "website",
+	projectName     : "NormalNvim.github.io",
 
   trailingSlash: true,
 	onBrokenLinks        : "throw",
