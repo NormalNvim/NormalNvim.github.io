@@ -20,6 +20,6 @@ pnpm start
 The `start` command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
 ## Credits and license
-This docusaurus website uses the MIT page of the Yazi project as initial template. We are gonna add our branding over time. Copyright (c) 2023 yazi-rs.
+This docusaurus website uses the [MIT](https://github.com/yazi-rs/yazi-rs.github.io/blob/main/LICENSE) [page](https://github.com/yazi-rs/yazi-rs.github.io) of the Yazi project as initial template. We are gonna add our branding over time. Copyright (c) 2023 yazi-rs.
 
 [MIT](LICENSE)
