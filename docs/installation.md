@@ -3,7 +3,6 @@ sidebar_position: 1
 description: How to install NormalNvim on various operating systems.
 ---
 
-
 # Installation
 * You need Neovim >= `0.10`
 * There are 3 ways to install NormalNvim.
@@ -29,3 +28,5 @@ git clone https://github.com/NormalNvim/NormalNvim.git %USERPROFILE%\AppData\Loc
 ## Optional dependencies
 This is only necessary if you installed NormalNvim by cloning manually. [To unlock all features you will have to install the dependencies](https://github.com/NormalNvim/NormalNvim/wiki/dependencies).
 
+
+![NormalNvim screenshot](/img/screenshots/installation/NormalNvim.webp)
