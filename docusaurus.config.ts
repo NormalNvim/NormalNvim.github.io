@@ -114,7 +114,7 @@ const config: Config = {
 					],
 				},
 			],
-			copyright: `Copyright © ${new Date().getFullYear()} <a href="https://github.com/Zeioth">NormalNvim</a>. Built by <a href="https://github.com/Zeioth">Zeioth</a> under the GPL3 licence.`,
+			copyright: `Copyright © ${new Date().getFullYear()} <a href="https://github.com/NormalNvim/NormalNvim">NormalNvim</a>. Built by <a href="https://github.com/Zeioth">Zeioth</a> under the GPL3 licence.`,
 		},
 		prism: {
 			theme              : prismThemes.github,
