@@ -18,7 +18,7 @@
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="new-features">New features<a class="hash-link" aria-label="Direct link to New features" title="Direct link to New features" href="https://normalnvim.github.io/blog/what-is-new-on-4-0/#new-features">​</a></h2>
 <ul>
 <li>✨feat(<code>yazi</code>): New file manager as drop-in replacement for <code>ranger</code>. Written in rust and 100% async.</li>
-<li>✨feat(<code>markdown</code>): Files are now rendered on</li>
+<li>✨feat(<code>markdown</code>): Files are now rendered on normal moede.</li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="minor-fixes">Minor fixes<a class="hash-link" aria-label="Direct link to Minor fixes" title="Direct link to Minor fixes" href="https://normalnvim.github.io/blog/what-is-new-on-4-0/#minor-fixes">​</a></h2>
 <p>TODO</p>
