@@ -4,7 +4,7 @@ description: Description of Normalnvim plugins related to UI.
 ---
 
 # 2-ui.lua
-Plugins that make the GUI better.
+Plugins that make the user interface better.
 
 ## List of plugins
 

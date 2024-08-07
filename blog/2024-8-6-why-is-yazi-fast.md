@@ -9,7 +9,7 @@ Version 4.0 comes full of good stuff
 ## New features
 
 * ✨feat(`yazi`): New file manager as drop-in replacement for `ranger`. Written in rust and 100% async.
-* ✨feat(`markdown`): Files are now rendered on
+* ✨feat(`markdown`): Files are now rendered on normal mode.
 
 ## Minor fixes
 TODO

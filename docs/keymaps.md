@@ -6,55 +6,57 @@ description: How to install use NormalNvim.
 # Keymaps
 These are the basic keybindings. Press Space to see all the key mappings.
 
-## Which key
+## Basic keymaps
+
+### Which key
 You can show all key bindings by pressing `Space`
 
 ![keymaps screenshot](/img/screenshots/keymaps/keymaps.webp)
 
-## Opening files
+### Opening files
 
 * To open the file explorer press `Space + r` → Close it with `q`
 * To toggle the project tree press `Space + e`
 
-## Close buffer
+### Close buffer
 To close the current buffer press `Space + c`
 
-## Opening code tree
+### Opening code tree
 To toggle the code tree tree press `Space + e`
 
-## Show diagnostics
+### Show diagnostics
 To see line diagnostics press `Space + lD`
 
-## Find word in project
+### Find word in project
 To find a word inside your project press `Space + ff`
 
-## Find and replace in buffer
+### Find and replace in buffer
 To find and replace something in the current buffer press `Space + fb`
 
-## Find and replace in project
+### Find and replace in project
 To find and replace something in the entire project press `Space + fr`
 
-## Find recent files
+### Find recent files
 To find recent files press `Space + fo`
 
-## Code actions
+### Code actions
 To use code actions press `Space + la`
 
-## Git client
+### Git client
 To open the git client press `Space + gg`
 
-## Navigate buffers
+### Navigate buffers
 
 * To switch to the buffer on the left press `[b`
 * To switch to the buffer on the right press `]b`
 
-## Navigate windows
+### Navigate windows
 To switch to another window press `Ctrl + h/l/k/j`
 
-## Resizing window
+### Resizing window
 To resize a window press `Ctrl + left/down/up/right` arrow keys
 
-## Code motions
+### Code motions
 
 * To `go to a posision of the visible screen` press `ENTER`
 * To `go and comment` lines press `gcc`
@@ -68,7 +70,7 @@ To resize a window press `Ctrl + left/down/up/right` arrow keys
 * To `go to the next change` press `ctrl + o`
 * To `go to the previous change` press `ctrl + i`
 
-## Advanced
+## Advanced keymaps
 
 ### Debugger
 
