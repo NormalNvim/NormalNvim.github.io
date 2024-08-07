@@ -27,12 +27,12 @@ On the left you can find a description of every plugin.
 
 ## Where to find the config
 ### UNIX
-> You can find the NormalNvim directory on: `~/.config/nvim`
-> You can find the plugins directory on: `~/.local/share/nvim/lazy`
+- You can find the NormalNvim directory on: `~/.config/nvim`
+- You can find the plugins directory on: `~/.local/share/nvim/lazy`
 
 ### Windows
-> You can find the NormalNvim directory on: `%LOCALAPPDATA%\nvim`
-> You can find the plugins directory on `%LOCALAPPDATA%\nvim-data\lazy`
+- You can find the NormalNvim directory on: `%LOCALAPPDATA%\nvim`
+- You can find the plugins directory on `%LOCALAPPDATA%\nvim-data\lazy`
 
 
 
