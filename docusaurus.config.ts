@@ -97,6 +97,10 @@ const config: Config = {
 						{
 							label: "Discord",
 							href : "https://discord.gg/ymcMaSnq7d",
+						},
+						{
+							label: "Reddit",
+							href : "https://www.reddit.com/r/NormalNvim/",
 						}
 					],
 				},
@@ -126,7 +130,7 @@ const config: Config = {
 		announcementBar: {
 			id: "donate",
 			content:
-				`🙏 Donate to the project`,
+				`<a href="https://www.paypal.com/paypalme/NormalNvim">🙏 Donate to the project</a>`,
 		},
 	} satisfies Preset.ThemeConfig,
 

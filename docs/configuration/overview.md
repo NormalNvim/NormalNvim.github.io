@@ -10,7 +10,7 @@ description: Learn how to configure Yazi.
 This is how NormalNvim is structured
 
 - [`init.lua`](https://github.com/NormalNvim/NormalNvim/blob/main/init.lua) - Entry point of the config.
-  - base
+  - [/base](https://github.com/NormalNvim/NormalNvim/tree/main/lua/base)
     - [`options.lua`](https://github.com/NormalNvim/NormalNvim/blob/main/lua/base/1-options.lua) - Neovim options.
     - [`lazy.lua`](https://github.com/NormalNvim/NormalNvim/blob/main/lua/base/2-lazy.lua) - Plugin loader.
     - [`autocmds.lua`](https://github.com/NormalNvim/NormalNvim/blob/main/lua/base/3-autocmds.lua) - User autocmds and commands.
@@ -18,7 +18,7 @@ This is how NormalNvim is structured
     - [`health.lua`](https://github.com/NormalNvim/NormalNvim/blob/main/lua/base/health.lua) - To run `:checkhealth base`.
     - [`\icons`](https://github.com/NormalNvim/NormalNvim/tree/main/lua/base/icons) - The icons you use.
     - [`\utils`](https://github.com/NormalNvim/NormalNvim/tree/main/lua/base/utils) - Utilities to save code repetition.
-  - plugins
+  - [/plugins](https://github.com/NormalNvim/NormalNvim/tree/main/lua/plugins)
     - [`1-behaviors.lua`](https://github.com/NormalNvim/NormalNvim/blob/main/lua/plugins/1-base-behaviors.lua) - Plugins that add new behaviors.
     - [`2-ui.lua`](https://github.com/NormalNvim/NormalNvim/blob/main/lua/plugins/2-ui.lua) - Plugins that make the GUI better.
     - [`3-dev-core.lua`](https://github.com/NormalNvim/NormalNvim/blob/main/lua/plugins/3-dev-core.lua) - Plugins that are just there.

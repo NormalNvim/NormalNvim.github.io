@@ -69,7 +69,7 @@ LSP code formatting and more.
 LSP garbage collector for Neovim.
 
 ## [lazydev](https://github.com/lazydev/lazydev.nvim)
-Lua LSP configuration for Neovim plugins.
+Allow adding code to LSP. Useful to have code autocompletion when developing Neovim plugins in LUA.
 
 ## [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
 Auto-completion plugin for Neovim.

@@ -34,8 +34,12 @@ Plugins that add new behaviors.
 ## [yazi](https://github.com/mikavilpas/yazi.nvim)
 Yazi is a blazing fast file manager for the terminal. This plugin allows you to open yazi in a floating window in Neovim.
 
+![Yazi.nvim screenshot](/img/screenshots/config/yazi.webp)
+
 ## [project](https://github.com/Zeioth/project.nvim)
 Provides a menu to open projects you've previously worked on.
+
+![project.nvim screenshot](/img/screenshots/config/project.webp)
 
 ## [trim](https://github.com/cappyzawa/trim.nvim)
 This plugin trims trailing whitespace and lines.
@@ -55,8 +59,12 @@ Removes the annoying delay Vim historically has had when pressing ESC.
 ## [toggleterm](https://github.com/akinsho/toggleterm.nvim)
 More powerful than the built-in Neovim terminal.
 
+![toggleterm.nvim screenshot](/img/screenshots/config/toggleterm.webp)
+
 ## [neovim-session-manager](https://github.com/Shatur/neovim-session-manager)
 Provides a menu to save/load Neovim sessions.
+
+![neovim-session-manager screenshot](/img/screenshots/config/session-manager.webp)
 
 ## [spectre](https://github.com/nvim-pack/nvim-spectre)
 A search and replace panel for Neovim.
@@ -64,10 +72,14 @@ A search and replace panel for Neovim.
 * Press `Space + f + b` to search and replace in buffer.
 * Press `Space + f + r` to search and replace in the current working directory recursively.
 
+![spectre screenshot](/img/screenshots/config/spectre.webp)
+
 ## [neo-tree](https://github.com/nvim-neo-tree/neo-tree.nvim)
 A project file tree viewer.
 
 * Press `Space + b` to toggle it.
+
+![neotree screenshot](/img/screenshots/config/neotree.webp)
 
 ## [nvim-ufo](https://github.com/kevinhwang91/nvim-ufo)
 Provide convenient folding functions we use in the key mappings.
@@ -75,15 +87,24 @@ Provide convenient folding functions we use in the key mappings.
 ## [nvim-neoclip](https://github.com/AckslD/nvim-neoclip.lua)
 Clipboard manager Neovim plugin with Telescope integration.
 
+* Press `Space + fy` to toggle it.
+* Press `Space + fq` to display your current neovim macros.
+
+![neoclip screenshot](/img/screenshots/config/neoclip.webp)
+
 ## [zen-mode](https://github.com/folke/zen-mode.nvim)
 Distraction-free mode.
 
 * Press `Space + u + z` to toggle it.
 
+![neoclip screenshot](/img/screenshots/config/zen-mode.webp)
+
 ## [vim-suda](https://github.com/lambdalisue/vim-suda)
 Allow writing a file with sudo permissions.
 
 * Press `Space + W` to write a buffer as sudo.
+
+![suda screenshot](/img/screenshots/config/suda.webp)
 
 ## [vim-matchup](https://github.com/andymass/vim-matchup)
 Improves the `%` motion to work over anything.
@@ -93,7 +114,11 @@ Improves the `%` motion to work over anything.
 ## [hop](https://github.com/phaazon/hop.nvim)
 Moves the cursor to any point of the visible screen.
 
-* Press `Enter` in normal mode to move the cursor to the point on the screen you want.
+* Press `Enter` in normal mode to move the cursor to the point on the screen you want. Then complete the key secuence to go to that point of the screen.
+
+![hop screenshot](/img/screenshots/config/hop.webp)
+
+> Hint: If you need to use ENTER while HOP is displaying, press, `SHIFT+ENTER`.
 
 ## [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
 Autocompletes `[]`, `()`, `{}`, `''`, `""`.
@@ -101,11 +126,19 @@ Autocompletes `[]`, `()`, `{}`, `''`, `""`.
 * This feature is disabled by default. You can enable it in `base/1-options.lua` by setting `vim.g.autopairs_enabled = true`.
 
 ## [lsp-signature](https://github.com/ray-x/lsp_signature.nvim)
-Show code documentation as you write functions.
+Show code documentation as you write functions parameters.
+
+![lsp signature screenshot](/img/screenshots/config/lsp-signature.webp)
 
 ## [nvim-lightbulb](https://github.com/kosayoda/nvim-lightbulb)
 Show a lightbulb under the cursor when a code action is available.
 
+* You can use code actions with `Space+l+a`
+
+![lightbulb screenshot](/img/screenshots/config/lightbulb.webp)
+
 ## [distroupdate](https://github.com/Zeioth/distroupdate.nvim)
 Provide commands to update the distro from the current `git remote origin` of your Neovim config directory.
+
+![distroupdate screenshot](/img/screenshots/config/distroupdate.webp)
 
