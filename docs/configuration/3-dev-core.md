@@ -8,79 +8,81 @@ Plugins that are just there.
 
 ## List of plugins
 
-## TREE SITTER
-- [nvim-treesitter](#nvim-treesitter)
-- [nvim-ts-autotag](#nvim-ts-autotag)
-- [ts-comments](#ts-comments)
-- [render-markdown](#render-markdown)
-- [nvim-highlight-colors](#nvim-highlight-colors)
+- [nvim-treesitter](#nvim-treesitter) `TREESITTER`
+- [nvim-ts-autotag](#nvim-ts-autotag) `TREESITTER`
+- [ts-comments](#ts-comments) `TREESITTER`
+- [render-markdown](#render-markdown) `TREESITTER`
+- [nvim-highlight-colors](#nvim-highlight-colors) `TREESITTER`
+- [nvim-java](#nvim-java) `LSP`
+- [mason-lspconfig](#mason-lspconfig) `LSP`
+- [nvim-lspconfig](#nvim-lspconfig) `LSP`
+- [mason](#mason) `LSP`
+- [SchemaStore](#schemastore) `LSP`
+- [none-ls-autoload](#none-ls-autoload) `LSP`
+- [none-ls](#none-ls) `LSP`
+- [garbage-day](#garbage-day) `LSP`
+- [lazydev](#lazydev) `LSP`
+- [nvim-cmp](#nvim-cmp) `AUTO-COMPLETION`
+- [cmp-nvim-buffer](#cmp-nvim-buffer) `AUTO-COMPLETION`
+- [cmp-nvim-path](#cmp-nvim-path) `AUTO-COMPLETION`
+- [cmp-nvim-lsp](#cmp-nvim-lsp) `AUTO-COMPLETION`
+- [cmp-luasnip](#cmp-luasnip) `AUTO-COMPLETION`
 
-## LSP
-- [nvim-java](#nvim-java)
-- [mason-lspconfig](#mason-lspconfig)
-- [nvim-lspconfig](#nvim-lspconfig)
-- [mason](#mason)
-- [SchemaStore](#schemastore)
-- [none-ls-autoload](#none-ls-autoload)
-- [none-ls](#none-ls)
-- [garbage-day](#garbage-day)
-- [lazydev](#lazydev)
 
-## AUTO COMPLETION
-- [nvim-cmp](#nvim-cmp)
-- [cmp-nvim-buffer](#cmp-nvim-buffer)
-- [cmp-nvim-path](#cmp-nvim-path)
-- [cmp-nvim-lsp](#cmp-nvim-lsp)
-- [cmp-luasnip](#cmp-luasnip)
+## [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+Syntax highlighting using Treesitter.
 
-## [tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
-A clean, dark Neovim theme.
+## [nvim-ts-autotag](https://github.com/windwp/nvim-ts-autotag)
+Automatically adds and removes HTML tags.
 
-## [astrotheme](https://github.com/shaunsingh/astrotheme)
-A minimal, dark Neovim theme.
+## [ts-comments](https://github.com/JoosepP/ts-comments.nvim)
+Treesitter-based comment management.
 
-## [alpha-nvim](https://github.com/goolord/alpha-nvim)
-A fast and highly customizable greeter for Neovim.
+## [render-markdown](https://github.com/echasnovski/render-markdown.nvim)
+Provides markdown preview and rendering in normal mode.
 
-## [nvim-notify](https://github.com/rcarriga/nvim-notify)
-A fancy, configurable notification manager for Neovim.
+## [nvim-highlight-colors](https://github.com/aviaryan/nvim-highlight-colors)
+Highlight hex colors in Neovim.
 
-## [mini.indentscope](https://github.com/echasnovski/mini.indentscope)
-Visualizes the current indent scope.
+## [nvim-java](https://github.com/neovim/nvim-java)
+Java development support for Neovim.
 
-## [heirline](https://github.com/rebelot/heirline.nvim)
-A no-nonsense Neovim statusline plugin written in Lua.
+## [mason-lspconfig](https://github.com/williamboman/mason-lspconfig.nvim)
+Automatically start LSP servers via mason.
 
-## [telescope](https://github.com/nvim-telescope/telescope.nvim)
-Highly extendable fuzzy finder over lists.
+## [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
+Collection of configurations for built-in LSP client.
 
-## [telescope-fzf-native](https://github.com/nvim-telescope/telescope-fzf-native.nvim)
-FZF sorter for telescope written in C.
+## [mason](https://github.com/williamboman/mason.nvim)
+LSP package manager for Neovim.
 
-## [smart-splits](https://github.com/mrjones2014/smart-splits.nvim)
-Smart, powerful, and seamless Neovim window management.
+## [SchemaStore](https://github.com/b0o/SchemaStore.nvim)
+Provides additional schemas for mason.
 
-## [dressing](https://github.com/stevearc/dressing.nvim)
-Improve the built-in `vim.ui` interfaces with a fancy UI.
+## [none-ls-autoload](https://github.com/jose-elias-alvarez/none-ls-autoload.nvim)
+Automatically loads Mason packages.
 
-## [noice](https://github.com/folke/noice.nvim)
-Highly experimental plugin that completely replaces the UI for messages, cmdline, and popupmenu.
+## [none-ls](https://github.com/jose-elias-alvarez/none-ls.nvim)
+LSP code formatting and more.
 
-## [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
-Lua fork of vim-web-devicons for Neovim.
+## [garbage-day](https://github.com/simrat39/garbage-day)
+LSP garbage collector for Neovim.
 
-## [lspkind](https://github.com/onsails/lspkind.nvim)
-Adds vscode-like pictograms to Neovim built-in LSP.
+## [lazydev](https://github.com/lazydev/lazydev.nvim)
+Lua LSP configuration for Neovim plugins.
 
-## [nvim-scrollbar](https://github.com/petertriho/nvim-scrollbar)
-Extensible Neovim scrollbar.
+## [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
+Auto-completion plugin for Neovim.
 
-## [mini.animate](https://github.com/echasnovski/mini.animate)
-Module of `mini.nvim` to add smooth animations.
+## [cmp-nvim-buffer](https://github.com/hrsh7th/cmp-nvim-buffer)
+Buffer completions for `nvim-cmp`.
 
-## [highlight-undo](https://github.com/tzachar/highlight-undo.nvim)
-A simple plugin to highlight undo and redo events.
+## [cmp-nvim-path](https://github.com/hrsh7th/cmp-nvim-path)
+Path completions for `nvim-cmp`.
 
-## [which-key](https://github.com/folke/which-key.nvim)
-Displays a popup with possible keybindings of the command you started typing.
+## [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
+LSP completions for `nvim-cmp`.
+
+## [cmp-luasnip](https://github.com/saadparwaiz1/cmp_luasnip)
+LuaSnip completions for `nvim-cmp`.
 

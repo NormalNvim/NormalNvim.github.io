@@ -12,7 +12,7 @@ Plugins that make the GUI better.
 - [astrotheme](#astrotheme)
 - [alpha](#alpha)
 - [nvim-notify](#nvim-notify)
-- [mini.indentscope](#mini-indentscope)
+- [mini-indentscope](#mini-indentscope)
 - [heirline](#heirline)
 - [telescope](#telescope)
 - [telescope-fzf-native](#telescope-fzf-native)
@@ -22,7 +22,7 @@ Plugins that make the GUI better.
 - [nvim-web-devicons](#nvim-web-devicons)
 - [lspkind](#lspkind)
 - [nvim-scrollbar](#nvim-scrollbar)
-- [mini.animate](#mini-animate)
+- [mini-animate](#mini-animate)
 - [highlight-undo](#highlight-undo)
 - [which-key](#which-key)
 
@@ -39,7 +39,7 @@ A fast and highly customizable greeter for Neovim.
 ## [nvim-notify](https://github.com/rcarriga/nvim-notify)
 A fancy, configurable notification manager for Neovim.
 
-## [mini.indentscope](https://github.com/echasnovski/mini.indentscope)
+## [mini-indentscope](https://github.com/echasnovski/mini.indentscope)
 Visualizes the current indent scope.
 
 ## [heirline](https://github.com/rebelot/heirline.nvim)
@@ -69,7 +69,7 @@ Adds vscode-like pictograms to Neovim built-in LSP.
 ## [nvim-scrollbar](https://github.com/petertriho/nvim-scrollbar)
 Extensible Neovim scrollbar.
 
-## [mini.animate](https://github.com/echasnovski/mini.animate)
+## [mini-animate](https://github.com/echasnovski/mini.animate)
 Module of `mini.nvim` to add smooth animations.
 
 ## [highlight-undo](https://github.com/tzachar/highlight-undo.nvim)

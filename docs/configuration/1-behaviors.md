@@ -12,7 +12,7 @@ Plugins that add new behaviors.
 - [project](#project)
 - [trim](#trim)
 - [stickybuf](#stickybuf)
-- [mini.bufremove](#mini-bufremove)
+- [mini-bufremove](#mini-bufremove)
 - [smart-splits](#smart-splits)
 - [better-escape](#better-escape)
 - [toggleterm](#toggleterm)
@@ -43,7 +43,7 @@ This plugin trims trailing whitespace and lines.
 ## [stickybuf](https://github.com/stevearc/stickybuf.nvim)
 Prevent certain UI buffers from being accidentally replaced.
 
-## [mini.bufremove](https://github.com/echasnovski/mini.bufremove)
+## [mini-bufremove](https://github.com/echasnovski/mini.bufremove)
 Customize the behavior of closing buffers.
 
 ## [smart-splits](https://github.com/mrjones2014/smart-splits.nvim)
