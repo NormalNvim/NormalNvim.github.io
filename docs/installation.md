@@ -7,7 +7,7 @@ description: How to install NormalNvim on various operating systems.
 * You need Neovim >= `0.10`
 * There are 3 ways to install NormalNvim.
 
-## Installer (Linux/MacOS/WSL)
+## Automatic installer (Linux/MacOS/WSL)
 You can preview it [here](https://github.com/NormalNvim/installer)
 ```sh
 wget -q https://raw.githubusercontent.com/NormalNvim/installer/main/installer.sh && chmod +x installer.sh && ./installer.sh

@@ -22,7 +22,7 @@ You can show all key bindings by pressing `Space`
 To close the current buffer press `Space + c`
 
 ### Opening code tree
-To toggle the code tree tree press `Space + e`
+To toggle the code tree tree (aerial) press `Space + i`
 
 ### Show diagnostics
 To see line diagnostics press `Space + lD`
