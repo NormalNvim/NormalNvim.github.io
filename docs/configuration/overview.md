@@ -16,6 +16,8 @@ This is how NormalNvim is structured
     - [`autocmds.lua`](https://github.com/NormalNvim/NormalNvim/blob/main/lua/base/3-autocmds.lua) - User autocmds and commands.
     - [`mappings.lua`](https://github.com/NormalNvim/NormalNvim/blob/main/lua/base/4-mappings.lua) - User keymaps.
     - [`health.lua`](https://github.com/NormalNvim/NormalNvim/blob/main/lua/base/health.lua) - To run `:checkhealth base`.
+    - [`\icons`](https://github.com/NormalNvim/NormalNvim/tree/main/lua/base/icons) - The icons you use.
+    - [`\utils`](https://github.com/NormalNvim/NormalNvim/tree/main/lua/base/utils) - Utilities to save code repetition.
   - plugins
     - [`1-behaviors.lua`](https://github.com/NormalNvim/NormalNvim/blob/main/lua/plugins/1-base-behaviors.lua) - Plugins that add new behaviors.
     - [`2-ui.lua`](https://github.com/NormalNvim/NormalNvim/blob/main/lua/plugins/2-ui.lua) - Plugins that make the GUI better.
@@ -32,7 +34,7 @@ On the left you can find a description of every plugin.
 
 ### Windows
 - You can find the NormalNvim directory on: `%LOCALAPPDATA%\nvim`
-- You can find the plugins directory on `%LOCALAPPDATA%\nvim-data\lazy`
+- You can find the plugins directory on: `%LOCALAPPDATA%\nvim-data\lazy`
 
 
 
