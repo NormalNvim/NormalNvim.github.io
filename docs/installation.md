@@ -26,7 +26,8 @@ git clone https://github.com/NormalNvim/NormalNvim.git %USERPROFILE%\AppData\Loc
 ```
 
 ## Optional dependencies
-This is only necessary if you installed NormalNvim by cloning manually. [To unlock all features you will have to install the dependencies](https://github.com/NormalNvim/NormalNvim/wiki/dependencies).
+This is only necessary if you installed NormalNvim by cloning manually
+instead of using the installer. [To unlock all features you will have to install the dependencies](https://github.com/NormalNvim/NormalNvim/wiki/dependencies).
 
 
 ![NormalNvim screenshot](/img/screenshots/installation/NormalNvim.webp)
