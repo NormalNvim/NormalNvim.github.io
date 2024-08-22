@@ -49,7 +49,7 @@ You can check all changes on GitHub [here](https://github.com/NormalNvim/NormalN
 * ✨feat(`ufo`): New keymapping zn to fold comments.
 * ✨feat(`noice`): The command bar is now beautified.
 * ✨feat(`dap`): The debugger now supports typescript, javascript, and react JSX.
-* ✨feat(`mappings`): new keymapping space+ba → To write all buffers.
+* ✨feat(`mappings`): new keymapping `space + b + a` → To write all buffers.
 * ✨feat(`notifications`): Are now automatically dismissed when writing the buffer.
 * ✨feat(`Compiler.nvim v3`): now ship a total of 128 compilation options for 22+ programming languages. This has been the product of 2+ months of full time effort, so please enjoy it.
 * ✨feat(`right click contextual menu`): We now ship it by default and can be customized in the autocmds file.
@@ -82,7 +82,7 @@ without removing any feature.
 and another few minor hundreds of changes.
 * ♻️refactor(`space + f + t`): won't display the builtin nvim themes anymore.
 * ♻️refactor(`none-ls`): Some packages have been deprecated and changed by new ones. See [here](https://github.com/NormalNvim/NormalNvim/releases/tag/v3.7.3).
-* ♻️refactor(`zen_mode`): is now under <space>uz, with all the other toggles.
+* ♻️refactor(`zen_mode`): is now under `<space> + u + z`, with all the other toggles.
 
 ## Credits
 This docusaurus website uses the [MIT](https://github.com/yazi-rs/yazi-rs.github.io/blob/main/LICENSE) [page](https://github.com/yazi-rs/yazi-rs.github.io) of the Yazi project as initial template.
