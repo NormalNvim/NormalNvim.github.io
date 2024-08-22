@@ -13,25 +13,88 @@
             <link>https://NormalNvim.github.io/blog/what-is-new-on-4-0/</link>
             <guid>https://NormalNvim.github.io/blog/what-is-new-on-4-0/</guid>
             <pubDate>Tue, 06 Aug 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[* Version 4.0 add 1282 commits over NormalNvim 3.0.]]></description>
-            <content:encoded><![CDATA[<ul>
+            <description><![CDATA[Some metrics]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="some-metrics">Some metrics<a href="https://normalnvim.github.io/blog/what-is-new-on-4-0/#some-metrics" class="hash-link" aria-label="Direct link to Some metrics" title="Direct link to Some metrics">​</a></h2>
+<ul>
 <li><code>Version 4.0</code> add <code>1282</code> commits over <code>NormalNvim 3.0</code>.</li>
+<li>Over <code>10.000</code> non breaking changes.</li>
 <li>This is the result of <code>368 days of full time development</code>.</li>
+<li><code>56</code> new users have joined <a href="https://discord.gg/ymcMaSnq7d" target="_blank" rel="noopener noreferrer">our discord channel</a>.</li>
 </ul>
+<p>You can check all changes on GitHub <a href="https://github.com/NormalNvim/NormalNvim/compare/v3.0.0...v4.0.0-rc7" target="_blank" rel="noopener noreferrer">here</a>.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="new-features">New features<a href="https://normalnvim.github.io/blog/what-is-new-on-4-0/#new-features" class="hash-link" aria-label="Direct link to New features" title="Direct link to New features">​</a></h2>
 <ul>
+<li>✨feat(<code>language support</code>): 24+ progamming languages are now included out of the box with lsp, linter, formatter, compiler, and debugger, preconfigured. So you can just start coding without having to setup anything.</li>
+<li>✨feat(<code>web</code>): We now have a website for the distro.</li>
+<li>✨feat(<code>installer</code>): We now have an automated installer. See <a href="https://github.com/NormalNvim/NormalNvim/releases/tag/v3.6.0" target="_blank" rel="noopener noreferrer">here</a>.</li>
 <li>✨feat(<code>yazi</code>): New file manager as drop-in replacement for <code>ranger</code>. Written in rust and 100% async.</li>
 <li>✨feat(<code>markdown</code>): Files are now rendered on normal mode.</li>
+<li>✨feat(<code>garbage-day.nvim</code>): We now ship a plugin to pause LSP servers when you are not using them to save resources.</li>
+<li>✨feat(<code>android support</code>): This versions supports android termux, including the compiler, and the debugger.</li>
+<li>✨feat(<code>compiler.nvim</code>): improved support for gradle (commit).</li>
+<li>✨feat(<code>compiler.nvim</code>/<code>dooku.nvim</code>/<code>markmap.nvim</code>): All the plugins we maintain now support paths with spaces.</li>
+<li>✨feat(<code>nvim</code>): Added support for <code>nvim 0.10</code>. All the plugins we maintain have been ported to nvim 0.10 too.</li>
+<li>⚡perf(<code>greeter</code>): Now open nvim considerably faster.</li>
+<li>⚡perf(<code>plugins</code>): Have been optimized to lazy load much more efficiently.</li>
+<li>⚡perf(<code>treesitter</code>): Comments are now natively supported.</li>
+<li>✨feat(<code>none-ls-autoload.nvim</code>): Is the new plugin we use instead of mason-null-ls to automatically load/unload none-ls sources installed on mason.</li>
+<li>✨feat(<code>none-ls-external-sources.nvim</code>): Is a combination of all the available repositories providing none-ls external sources.</li>
+<li>✨feat(<code>none-ls</code>) Support for cucumber gherkin added.</li>
+<li>✨feat(<code>nvim-coverage</code>): Now support hunks.</li>
+<li>✨feat(<code>nvim-lightbulb</code>): display a 💡 icon when a code action is available in the current line. It can be disabled with vim.g.codeactions_enabled = false in the file base/1-options.lua.</li>
+<li>✨(<code>litee-calltree</code>): is now available by pressing gj.</li>
+<li>✨feat(<code>dooku.nvim</code>): Now supports lua and ruby.</li>
+<li>✨feat(<code>notifications</code>): now display smoother (144fps) and last shorter (2.5s).</li>
+<li>✨feat(<code>compiler.nvim</code>): now support the build automation utility meson.</li>
+<li>⚡perf(<code>ui</code>): Now load instantly even when Neovim is opened with arguments.</li>
+<li>✨feat(<code>ui</code>): This version introduces a new winbar with buttons for neotree, aerial, and the compiler.</li>
+<li>✨feat(<code>heirline-components.nvim</code>): We now maintain a heirline components plugin to take complexity out of it.</li>
+<li>✨feat(<code>compiler.nvim</code>): Can now compile the swift programming language.</li>
+<li>✨feat(<code>java</code>): support for java has been greatly improved and all features now work out of the box.</li>
+<li>✨feat(<code>php</code>): has been curated and all features now work out of the box.</li>
+<li>✨feat(<code>neotest</code>): now support the languages dart, elixir, java, phpunit, zig.</li>
+<li>✨feat(<code>virtualenv</code>): We now display the active virtual environment on the status bar (if any)</li>
+<li>✨feat(<code>mini.indentscope</code>): is now used to highlight the current block of code.</li>
+<li>✨feat(<code>compiler.nvim</code>): can now compile elixir.</li>
+<li>✨feat(<code>ufo</code>): New keymapping zn to fold comments.</li>
+<li>✨feat(<code>noice</code>): The command bar is now beautified.</li>
+<li>✨feat(<code>dap</code>): The debugger now supports typescript, javascript, and react JSX.</li>
+<li>✨feat(<code>mappings</code>): new keymapping <code>space + b + a</code> → To write all buffers.</li>
+<li>✨feat(<code>notifications</code>): Are now automatically dismissed when writing the buffer.</li>
+<li>✨feat(<code>Compiler.nvim v3</code>): now ship a total of 128 compilation options for 22+ programming languages. This has been the product of 2+ months of full time effort, so please enjoy it.</li>
+<li>✨feat(<code>right click contextual menu</code>): We now ship it by default and can be customized in the autocmds file.</li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="minor-fixes">Minor fixes<a href="https://normalnvim.github.io/blog/what-is-new-on-4-0/#minor-fixes" class="hash-link" aria-label="Direct link to Minor fixes" title="Direct link to Minor fixes">​</a></h2>
 <ul>
-<li>🐛fix(highlight-undo.nvim): config adapted to their latest version. Colors are now consistent.</li>
+<li>🐛fix(<code>highlight-undo.nvim</code>): config adapted to their latest version. Colors are now consistent.</li>
+<li>🐛fix(<code>codelens</code>): the mapping space + u + L now refreshes codelens when toggling it on. (commit)</li>
+<li>🐛fix(<code>codelens</code>): ocassional notification when resuming from garbage-day.nvim has been fixed here and here.</li>
+<li>🐛fix(<code>lsp</code>): This version fix rare border cases where LSP mappings were not added correctly (remarkably, on java).</li>
+<li>🐛fix(<code>formatting</code>): The mapping Space + l + f now run <!-- -->:checktime<!-- --> to reflect the changes in the editor immediately.</li>
+<li>🐛fix(<code>aerial</code>): Now open correctly even when the cursor is over Neotree (or any nofile buffer).</li>
+<li>🐛fix(<code>compiler.nvim</code>): the command <!-- -->:CompilerRedo<!-- --> now works correctly with build automation utilities.</li>
+<li>🐛fix(<code>heirline-components</code>) buffer.wipe now closes all sidebars before the last window is closed.</li>
+<li>🐛fix(<code>markdown-preview.nvim</code>): Starting this plugin by filetype is a requirement, so we do it now.</li>
+<li>🐛fix(<code>osx</code>): is not detected as android anymore</li>
+<li>🐛fix(<code>json</code>/<code>yaml</code>): now lint and format correctly.</li>
+<li>🐛fix(<code>command autocomplete</code>): The arrow keys are not inverted anymore when auto completing commands.</li>
+<li>🐛fix(<code>mini.animate</code>): is now disabled by default on android devices. This fixes slow scroll on android.</li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="minor-refactors">Minor refactors<a href="https://normalnvim.github.io/blog/what-is-new-on-4-0/#minor-refactors" class="hash-link" aria-label="Direct link to Minor refactors" title="Direct link to Minor refactors">​</a></h2>
+<p>This version has massive refactors over <code>v3.0</code>, reducing the amount of complexity
+without removing any feature.</p>
 <ul>
-<li>♻️refactor(nvim-ts-autopairs): Has been moved to <code>1-base-behaviors.lua</code>.</li>
+<li>♻️refactor(<code>base</code>): Complexity has been reduced several thousands of lines without losing any feature, or hiding complexity.</li>
+<li>♻️refactor(<code>base</code>): All functions without a case of use strong enough have been replaced by native nvim functions.</li>
+<li>♻️refactor(<code>distroupdate.nvim</code>): Command names have been changed from the prefix <code>Nvim</code> to the prefix <code>Distro</code>.</li>
+<li>♻️refactor(<code>nvim-ts-autopairs</code>): Has been moved to <code>1-base-behaviors.lua</code>.</li>
+<li>♻️refactor(<code>better-scape</code>): Updated to latest version. Removed unnecessary option. The author has rewritten the plugin from scratch.</li>
+<li>♻️refactor(<code>autotag</code>): Updated to latest version. Removed unnecessary option from treesitter.
+and another few minor hundreds of changes.</li>
+<li>♻️refactor(<code>space + f + t</code>): won't display the builtin nvim themes anymore.</li>
+<li>♻️refactor(<code>none-ls</code>): Some packages have been deprecated and changed by new ones. See <a href="https://github.com/NormalNvim/NormalNvim/releases/tag/v3.7.3" target="_blank" rel="noopener noreferrer">here</a>.</li>
+<li>♻️refactor(<code>zen_mode</code>): is now under <code>&lt;space&gt; + u + z</code>, with all the other toggles.</li>
 </ul>
-<p>and another few minor hundreds of changes.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="credits">Credits<a href="https://normalnvim.github.io/blog/what-is-new-on-4-0/#credits" class="hash-link" aria-label="Direct link to Credits" title="Direct link to Credits">​</a></h2>
 <p>This docusaurus website uses the <a href="https://github.com/yazi-rs/yazi-rs.github.io/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">MIT</a> <a href="https://github.com/yazi-rs/yazi-rs.github.io" target="_blank" rel="noopener noreferrer">page</a> of the Yazi project as initial template.
 We are gonna add our branding over time.
