@@ -81,10 +81,10 @@ const config: Config = {
 							label: "Docs",
 							to   : "/docs/installation",
 						},
-						{
-							label: "Features",
-							to   : "/features",
-						},
+						// {
+						// 	label: "Features",
+						// 	to   : "/features",
+						// },
 						{
 							label: "Blog",
 							to   : "/blog",

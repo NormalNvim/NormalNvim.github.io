@@ -9,7 +9,7 @@ description: Learn how to configure Yazi.
 
 On the left sidebar of this page you can find the description of every plugin.
 
-## Directory structure
+## 📁 Directory structure
 
 - [/base](https://github.com/NormalNvim/NormalNvim/tree/main/lua/base)
   - [`1-options.lua`](https://github.com/NormalNvim/NormalNvim/blob/main/lua/base/1-options.lua) - Neovim options.
@@ -32,7 +32,7 @@ On the left sidebar of this page you can find the description of every plugin.
 
 ![directory structure screenshot](/img/screenshots/config/directory-structure.webp)
 
-## Where to find the config
+## 👀 Where to find the config
 ### UNIX
 - You can find the NormalNvim directory on: `~/.config/nvim`
 - You can find the plugins directory on: `~/.local/share/nvim/lazy`
