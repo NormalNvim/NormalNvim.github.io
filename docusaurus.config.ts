@@ -81,6 +81,7 @@ const config: Config = {
 							label: "Docs",
 							to   : "/docs/installation",
 						},
+    				// uncomment to enable the features section.
 						// {
 						// 	label: "Features",
 						// 	to   : "/features",
