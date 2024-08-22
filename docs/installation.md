@@ -3,7 +3,7 @@ sidebar_position: 1
 description: How to install NormalNvim on various operating systems.
 ---
 
-# Installation
+# ⚡ Installation
 * You need Neovim >= `0.10`
 * There are 3 ways to install NormalNvim.
 

@@ -3,7 +3,7 @@ sidebar_position: 2
 description: How to install use NormalNvim.
 ---
 
-# Keymaps
+# ⌨️ Keymaps
 These are the basic keybindings. Press Space to see all the key mappings.
 
 ## Basic keymaps
@@ -22,7 +22,7 @@ You can show all key bindings by pressing `Space`
 To close the current buffer press `Space + c`
 
 ### Opening code tree
-To toggle the code tree tree (aerial) press `Space + i`
+To toggle the code tree (aerial) press `Space + i`
 
 ### Show diagnostics
 To see line diagnostics press `Space + lD`
@@ -92,7 +92,7 @@ To step out press `Shift+F11`
 
 To toggle the compiler press `F6`
 
-To redo the last selected action `Shift+F6
+To redo the last selected action `Shift+F6`
 
 To toggle the compiler results press `Shift + F7`
 
