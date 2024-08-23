@@ -63,7 +63,7 @@ To resize a window press `Ctrl + left/down/up/right` arrow keys
 * To `go to definition` press `gd`
 * To `go to reference` press `gr`
 * To `go to call tree` press `gj`
-* To `go to the lines where a variable is assigned press `gs`
+* To `go to the lines where a variable is assigned` press `gs`
 * To `go to help` set your cursor over something and press `gh`
 * To `go to man` press `gm` → To close man press `Space + c`
 * To `go to file` set your cursor over a file path and press `gf`
