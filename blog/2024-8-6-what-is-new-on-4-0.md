@@ -6,7 +6,7 @@ authors: [zeioth]
 
 ## Some metrics
 
-* `Version 4.0` add `1282` commits over `NormalNvim 3.0` and over `10.000` non breaking refactors.
+* `Version 4.0` add `1282` commits over `NormalNvim 3.0` and over `10.000` non breaking changes.
 * This is the result of `1 year and 4 days of full time development`.
 * [56 new users have joined our discord channel](https://discord.gg/ymcMaSnq7d).
 
