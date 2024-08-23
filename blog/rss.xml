@@ -23,7 +23,6 @@
 <p>You can check the full diff on GitHub <a href="https://github.com/NormalNvim/NormalNvim/compare/v3.0.0...v4.0.0-rc7" target="_blank" rel="noopener noreferrer">here</a>.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="new-features">New features<a href="https://normalnvim.github.io/blog/what-is-new-on-4-0/#new-features" class="hash-link" aria-label="Direct link to New features" title="Direct link to New features">​</a></h2>
 <ul>
-<li>✨feat(<code>language support</code>): 24+ progamming languages are now included out of the box with lsp, linter, formatter, compiler, and debugger, preconfigured. So you can just start coding without having to setup anything.</li>
 <li>✨feat(<code>web</code>): We now have a website for the distro.</li>
 <li>✨feat(<code>installer</code>): We now have an automated installer. See <a href="https://github.com/NormalNvim/NormalNvim/releases/tag/v3.6.0" target="_blank" rel="noopener noreferrer">here</a>.</li>
 <li>✨feat(<code>yazi</code>): New file manager as drop-in replacement for <code>ranger</code>. Written in rust and 100% async.</li>
@@ -62,6 +61,7 @@
 <li>✨feat(<code>notifications</code>): Are now automatically dismissed when writing the buffer.</li>
 <li>✨feat(<code>compiler.nvim v3</code>): now ship a total of 128 compilation options for 22+ programming languages. This has been the product of 2+ months of full time effort, so please enjoy it.</li>
 <li>✨feat(<code>right click contextual menu</code>): We now ship it by default and can be customized in the autocmds file.</li>
+<li>✨feat(<code>language support</code>): 24+ progamming languages are now included out of the box with lsp, linter, formatter, compiler, and debugger, preconfigured. So you can just start coding without having to setup anything.</li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="minor-fixes">Minor fixes<a href="https://normalnvim.github.io/blog/what-is-new-on-4-0/#minor-fixes" class="hash-link" aria-label="Direct link to Minor fixes" title="Direct link to Minor fixes">​</a></h2>
 <ul>
