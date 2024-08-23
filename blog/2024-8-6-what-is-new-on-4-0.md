@@ -15,7 +15,6 @@ You can check the full diff on GitHub [here](https://github.com/NormalNvim/Norma
 <!-- truncate -->
 
 ## New features
-* ✨feat(`language support`): 24+ progamming languages are now included out of the box with lsp, linter, formatter, compiler, and debugger, preconfigured. So you can just start coding without having to setup anything.
 * ✨feat(`web`): We now have a website for the distro.
 * ✨feat(`installer`): We now have an automated installer. See [here](https://github.com/NormalNvim/NormalNvim/releases/tag/v3.6.0).
 * ✨feat(`yazi`): New file manager as drop-in replacement for `ranger`. Written in rust and 100% async.
@@ -52,8 +51,9 @@ You can check the full diff on GitHub [here](https://github.com/NormalNvim/Norma
 * ✨feat(`dap`): The debugger now supports typescript, javascript, and react JSX.
 * ✨feat(`mappings`): new keymapping `space + b + a` to write all buffers.
 * ✨feat(`notifications`): Are now automatically dismissed when writing the buffer.
-* ✨feat(`Compiler.nvim v3`): now ship a total of 128 compilation options for 22+ programming languages. This has been the product of 2+ months of full time effort, so please enjoy it.
+* ✨feat(`compiler.nvim v3`): now ship a total of 128 compilation options for 22+ programming languages. This has been the product of 2+ months of full time effort, so please enjoy it.
 * ✨feat(`right click contextual menu`): We now ship it by default and can be customized in the autocmds file.
+* ✨feat(`language support`): 24+ progamming languages are now included out of the box with lsp, linter, formatter, compiler, and debugger, preconfigured. So you can just start coding without having to setup anything.
 
 ## Minor fixes
 * 🐛fix(`highlight-undo.nvim`): config adapted to their latest version. Colors are now consistent.
@@ -62,7 +62,7 @@ You can check the full diff on GitHub [here](https://github.com/NormalNvim/Norma
 * 🐛fix(`lsp`): This version fix rare border cases where LSP mappings were not added correctly (remarkably, on java).
 * 🐛fix(`formatting`): The mapping Space + l + f now run :checktime to reflect the changes in the editor immediately.
 * 🐛fix(`aerial`): Now open correctly even when the cursor is over Neotree (or any nofile buffer).
-* 🐛fix(`compiler.nvim`): the command :CompilerRedo now works correctly with build automation utilities.
+* 🐛fix(`compiler.nvim`): the command `:CompilerRedo` now works correctly with build automation utilities.
 * 🐛fix(`heirline-components`) buffer.wipe now closes all sidebars before the last window is closed.
 * 🐛fix(`markdown-preview.nvim`): Starting this plugin by filetype is a requirement, so we do it now.
 * 🐛fix(`osx`): is not detected as android anymore

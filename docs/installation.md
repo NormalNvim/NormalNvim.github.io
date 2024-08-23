@@ -8,7 +8,7 @@ description: How to install NormalNvim on various operating systems.
 * There are 3 ways to install NormalNvim.
 
 ## 🤷‍♂️ Automatic installer (Linux/MacOS/WSL)
-You can preview it [here](https://github.com/NormalNvim/installer)
+You can preview it [here](https://github.com/NormalNvim/installer).
 ```sh
 wget -q https://raw.githubusercontent.com/NormalNvim/installer/main/installer.sh && chmod +x installer.sh && ./installer.sh
 ```
