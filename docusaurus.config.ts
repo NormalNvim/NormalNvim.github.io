@@ -13,7 +13,7 @@ const config: Config = {
 	organizationName: "NormalNvim",
 	projectName     : "NormalNvim.github.io",
 
-  trailingSlash: true,
+  trailingSlash        : true,
 	onBrokenLinks        : "throw",
 	onBrokenMarkdownLinks: "warn",
 
@@ -46,6 +46,11 @@ const config: Config = {
 	],
 
 	themeConfig: {
+		// domain verification metadata
+    metadata: [
+      { name: 'google-site-verification', content: 'VX3MPmMRvAHmGO3hhWOo7_Ia97TP8Rgmk19tfecjLL8' },
+    ],
+
 		// Replace with your project's social card
 		image : "img/docusaurus-social-card.jpg",
 		navbar: {
