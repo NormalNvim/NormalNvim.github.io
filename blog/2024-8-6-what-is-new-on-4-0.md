@@ -1,17 +1,18 @@
 ---
 slug: what-is-new-on-4-0
 title: What is new on 4.0?
-authors: [sxyazi]
+authors: [zeioth]
 ---
 
 ## Some metrics
 
-* `Version 4.0` add `1282` commits over `NormalNvim 3.0`.
-* Over `10.000` non breaking changes.
-* This is the result of `368 days of full time development`.
-* `56` new users have joined [our discord channel](https://discord.gg/ymcMaSnq7d).
+* `Version 4.0` add `1282` commits over `NormalNvim 3.0` and over `10.000` non breaking refactors.
+* This is the result of `1 year and 4 days of full time development`.
+* [56 new users have joined our discord channel](https://discord.gg/ymcMaSnq7d).
 
-You can check all changes on GitHub [here](https://github.com/NormalNvim/NormalNvim/compare/v3.0.0...v4.0.0-rc7).
+You can check the full diff on GitHub [here](https://github.com/NormalNvim/NormalNvim/compare/v3.0.0...v4.0.0-rc7).
+
+<!-- truncate -->
 
 ## New features
 * ✨feat(`language support`): 24+ progamming languages are now included out of the box with lsp, linter, formatter, compiler, and debugger, preconfigured. So you can just start coding without having to setup anything.
@@ -43,20 +44,20 @@ You can check all changes on GitHub [here](https://github.com/NormalNvim/NormalN
 * ✨feat(`java`): support for java has been greatly improved and all features now work out of the box.
 * ✨feat(`php`): has been curated and all features now work out of the box.
 * ✨feat(`neotest`): now support the languages dart, elixir, java, phpunit, zig.
-* ✨feat(`virtualenv`): We now display the active virtual environment on the status bar (if any)
+* ✨feat(`virtualenv`): We now display the active virtual environment on the status bar (if any).
 * ✨feat(`mini.indentscope`): is now used to highlight the current block of code.
 * ✨feat(`compiler.nvim`): can now compile elixir.
 * ✨feat(`ufo`): New keymapping zn to fold comments.
 * ✨feat(`noice`): The command bar is now beautified.
 * ✨feat(`dap`): The debugger now supports typescript, javascript, and react JSX.
-* ✨feat(`mappings`): new keymapping `space + b + a` → To write all buffers.
+* ✨feat(`mappings`): new keymapping `space + b + a` to write all buffers.
 * ✨feat(`notifications`): Are now automatically dismissed when writing the buffer.
 * ✨feat(`Compiler.nvim v3`): now ship a total of 128 compilation options for 22+ programming languages. This has been the product of 2+ months of full time effort, so please enjoy it.
 * ✨feat(`right click contextual menu`): We now ship it by default and can be customized in the autocmds file.
 
 ## Minor fixes
 * 🐛fix(`highlight-undo.nvim`): config adapted to their latest version. Colors are now consistent.
-* 🐛fix(`codelens`): the mapping space + u + L now refreshes codelens when toggling it on. (commit)
+* 🐛fix(`codelens`): the mapping space + u + L now refreshes codelens when toggling it on. (commit).
 * 🐛fix(`codelens`): ocassional notification when resuming from garbage-day.nvim has been fixed here and here.
 * 🐛fix(`lsp`): This version fix rare border cases where LSP mappings were not added correctly (remarkably, on java).
 * 🐛fix(`formatting`): The mapping Space + l + f now run :checktime to reflect the changes in the editor immediately.
@@ -75,7 +76,7 @@ without removing any feature.
 
 * ♻️refactor(`base`): Complexity has been reduced several thousands of lines without losing any feature, or hiding complexity.
 * ♻️refactor(`base`): All functions without a case of use strong enough have been replaced by native nvim functions.
-* ♻️refactor(`distroupdate.nvim`): Command names have been changed from the prefix `Nvim` to the prefix `Distro`.
+* ♻️refactor(`distroupdate.nvim`): Command names have been changed from the prefix `:Nvim` to the prefix `:Distro`.
 * ♻️refactor(`nvim-ts-autopairs`): Has been moved to `1-base-behaviors.lua`.
 * ♻️refactor(`better-scape`): Updated to latest version. Removed unnecessary option. The author has rewritten the plugin from scratch.
 * ♻️refactor(`autotag`): Updated to latest version. Removed unnecessary option from treesitter.
