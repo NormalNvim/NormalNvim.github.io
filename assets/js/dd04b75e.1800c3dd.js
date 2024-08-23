@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[672],{3024:t=>{t.exports=JSON.parse('{"authors":[{"name":"Zeioth","title":"Creator of NormalNvim","url":"https://github.com/zeioth","imageURL":"https://github.com/zeioth.png","key":"sxyazi","page":null,"count":1}]}')}}]);
