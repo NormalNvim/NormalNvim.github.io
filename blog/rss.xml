@@ -16,7 +16,7 @@
             <description><![CDATA[Some metrics]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="some-metrics">Some metrics<a href="https://normalnvim.github.io/blog/what-is-new-on-4-0/#some-metrics" class="hash-link" aria-label="Direct link to Some metrics" title="Direct link to Some metrics">​</a></h2>
 <ul>
-<li><code>Version 4.0</code> add <code>1282</code> commits over <code>NormalNvim 3.0</code> and over <code>10.000</code> non breaking refactors.</li>
+<li><code>Version 4.0</code> add <code>1282</code> commits over <code>NormalNvim 3.0</code> and over <code>10.000</code> non breaking changes.</li>
 <li>This is the result of <code>1 year and 4 days of full time development</code>.</li>
 <li><a href="https://discord.gg/ymcMaSnq7d" target="_blank" rel="noopener noreferrer">56 new users have joined our discord channel</a>.</li>
 </ul>
