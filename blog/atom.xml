@@ -59,7 +59,7 @@
 <li>✨feat(<code>dap</code>): The debugger now supports typescript, javascript, and react JSX.</li>
 <li>✨feat(<code>mappings</code>): new keymapping <code>space + b + a</code> to write all buffers.</li>
 <li>✨feat(<code>notifications</code>): Are now automatically dismissed when writing the buffer.</li>
-<li>✨feat(<code>Compiler.nvim v3</code>): now ship a total of 128 compilation options for 22+ programming languages. This has been the product of 2+ months of full time effort, so please enjoy it.</li>
+<li>✨feat(<code>compiler.nvim v3</code>): now ship a total of 128 compilation options for 22+ programming languages. This has been the product of 2+ months of full time effort, so please enjoy it.</li>
 <li>✨feat(<code>right click contextual menu</code>): We now ship it by default and can be customized in the autocmds file.</li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="minor-fixes">Minor fixes<a href="https://normalnvim.github.io/blog/what-is-new-on-4-0/#minor-fixes" class="hash-link" aria-label="Direct link to Minor fixes" title="Direct link to Minor fixes">​</a></h2>
@@ -70,7 +70,7 @@
 <li>🐛fix(<code>lsp</code>): This version fix rare border cases where LSP mappings were not added correctly (remarkably, on java).</li>
 <li>🐛fix(<code>formatting</code>): The mapping Space + l + f now run <!-- -->:checktime<!-- --> to reflect the changes in the editor immediately.</li>
 <li>🐛fix(<code>aerial</code>): Now open correctly even when the cursor is over Neotree (or any nofile buffer).</li>
-<li>🐛fix(<code>compiler.nvim</code>): the command <!-- -->:CompilerRedo<!-- --> now works correctly with build automation utilities.</li>
+<li>🐛fix(<code>compiler.nvim</code>): the command <code>:CompilerRedo</code> now works correctly with build automation utilities.</li>
 <li>🐛fix(<code>heirline-components</code>) buffer.wipe now closes all sidebars before the last window is closed.</li>
 <li>🐛fix(<code>markdown-preview.nvim</code>): Starting this plugin by filetype is a requirement, so we do it now.</li>
 <li>🐛fix(<code>osx</code>): is not detected as android anymore</li>
