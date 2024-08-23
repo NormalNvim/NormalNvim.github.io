@@ -52,13 +52,13 @@
 <li>✨feat(<code>java</code>): support for java has been greatly improved and all features now work out of the box.</li>
 <li>✨feat(<code>php</code>): has been curated and all features now work out of the box.</li>
 <li>✨feat(<code>neotest</code>): now support the languages dart, elixir, java, phpunit, zig.</li>
-<li>✨feat(<code>virtualenv</code>): We now display the active virtual environment on the status bar (if any)</li>
+<li>✨feat(<code>virtualenv</code>): We now display the active virtual environment on the status bar (if any).</li>
 <li>✨feat(<code>mini.indentscope</code>): is now used to highlight the current block of code.</li>
 <li>✨feat(<code>compiler.nvim</code>): can now compile elixir.</li>
 <li>✨feat(<code>ufo</code>): New keymapping zn to fold comments.</li>
 <li>✨feat(<code>noice</code>): The command bar is now beautified.</li>
 <li>✨feat(<code>dap</code>): The debugger now supports typescript, javascript, and react JSX.</li>
-<li>✨feat(<code>mappings</code>): new keymapping <code>space + b + a</code> → To write all buffers.</li>
+<li>✨feat(<code>mappings</code>): new keymapping <code>space + b + a</code> to write all buffers.</li>
 <li>✨feat(<code>notifications</code>): Are now automatically dismissed when writing the buffer.</li>
 <li>✨feat(<code>Compiler.nvim v3</code>): now ship a total of 128 compilation options for 22+ programming languages. This has been the product of 2+ months of full time effort, so please enjoy it.</li>
 <li>✨feat(<code>right click contextual menu</code>): We now ship it by default and can be customized in the autocmds file.</li>
@@ -66,7 +66,7 @@
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="minor-fixes">Minor fixes<a href="https://normalnvim.github.io/blog/what-is-new-on-4-0/#minor-fixes" class="hash-link" aria-label="Direct link to Minor fixes" title="Direct link to Minor fixes">​</a></h2>
 <ul>
 <li>🐛fix(<code>highlight-undo.nvim</code>): config adapted to their latest version. Colors are now consistent.</li>
-<li>🐛fix(<code>codelens</code>): the mapping space + u + L now refreshes codelens when toggling it on. (commit)</li>
+<li>🐛fix(<code>codelens</code>): the mapping space + u + L now refreshes codelens when toggling it on. (commit).</li>
 <li>🐛fix(<code>codelens</code>): ocassional notification when resuming from garbage-day.nvim has been fixed here and here.</li>
 <li>🐛fix(<code>lsp</code>): This version fix rare border cases where LSP mappings were not added correctly (remarkably, on java).</li>
 <li>🐛fix(<code>formatting</code>): The mapping Space + l + f now run <!-- -->:checktime<!-- --> to reflect the changes in the editor immediately.</li>
@@ -85,7 +85,7 @@ without removing any feature.</p>
 <ul>
 <li>♻️refactor(<code>base</code>): Complexity has been reduced several thousands of lines without losing any feature, or hiding complexity.</li>
 <li>♻️refactor(<code>base</code>): All functions without a case of use strong enough have been replaced by native nvim functions.</li>
-<li>♻️refactor(<code>distroupdate.nvim</code>): Command names have been changed from the prefix <code>Nvim</code> to the prefix <code>Distro</code>.</li>
+<li>♻️refactor(<code>distroupdate.nvim</code>): Command names have been changed from the prefix <code>:Nvim</code> to the prefix <code>:Distro</code>.</li>
 <li>♻️refactor(<code>nvim-ts-autopairs</code>): Has been moved to <code>1-base-behaviors.lua</code>.</li>
 <li>♻️refactor(<code>better-scape</code>): Updated to latest version. Removed unnecessary option. The author has rewritten the plugin from scratch.</li>
 <li>♻️refactor(<code>autotag</code>): Updated to latest version. Removed unnecessary option from treesitter.
