@@ -49,6 +49,7 @@ const config: Config = {
 		// domain verification metadata
     metadata: [
       { name: 'google-site-verification', content: 'VX3MPmMRvAHmGO3hhWOo7_Ia97TP8Rgmk19tfecjLL8' },
+      //{ name: 'description', content: 'A normal Neovim distribution. Full Asynchronous Support. ; Plugins are loaded asynchronously using Lazy, making the most of available resources. ; IDE Ready. Save weeks of tweaking.' },
     ],
 
 		// Replace with your project's social card
@@ -64,11 +65,11 @@ const config: Config = {
 					type     : "docSidebar",
 					sidebarId: "docsSidebar",
 					position : "left",
-					label    : "Docs",
+					label    : "Manual",
 				},
 				// uncomment to enable the features section.
 				// { to: "/features", label: "Features", position: "left" },
-				{ to: "/blog", label: "Blog", position: "left" },
+				{ to: "/blog", label: "Changelog", position: "left" },
 				{
 					href    : "https://github.com/NormalNvim/NormalNvim",
 					label   : "GitHub",
@@ -83,7 +84,7 @@ const config: Config = {
 					title: "Resources",
 					items: [
 						{
-							label: "Docs",
+							label: "Manual",
 							to   : "/docs/installation",
 						},
     				// uncomment to enable the features section.
@@ -92,8 +93,8 @@ const config: Config = {
 						// 	to   : "/features",
 						// },
 						{
-							label: "Blog",
-							to   : "/blog",
+							label: "Changelog",
+							to   : "/changelog",
 						},
 					],
 				},
