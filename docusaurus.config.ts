@@ -35,6 +35,7 @@ const config: Config = {
 				},
 				blog: {
 					showReadingTime: true,
+          onUntruncatedBlogPosts: "ignore",
 					// Remove this to remove the "edit this page" links.
 					// editUrl        : "https://github.com/NormalNvim/NormalNvim.github.io/edit/main/",
 				},
@@ -94,7 +95,7 @@ const config: Config = {
 						// },
 						{
 							label: "Changelog",
-							to   : "/changelog",
+							to   : "/blog",
 						},
 					],
 				},

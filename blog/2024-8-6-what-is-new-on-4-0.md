@@ -12,8 +12,6 @@ authors: [zeioth]
 
 You can check the full diff on GitHub [here](https://github.com/NormalNvim/NormalNvim/compare/v3.0.0...v4.0.0-rc7).
 
-<!-- truncate -->
-
 ## New features
 * ✨feat(`web`): We now have a website for the distro.
 * ✨feat(`installer`): We now have an automated installer. See [here](https://github.com/NormalNvim/NormalNvim/releases/tag/v3.6.0).
