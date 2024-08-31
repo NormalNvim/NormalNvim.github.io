@@ -40,6 +40,10 @@ Yazi is a blazing fast file manager for the terminal. This plugin allows you to 
 ## [project](https://github.com/Zeioth/project.nvim)
 Provides a menu to open projects you've previously worked on.
 
+> Hint: This plugin  will auto `:cd` the project dir
+every time you open a new buffer if it finds `.git`.
+This behavior can be configured.
+
 ![project.nvim screenshot](/img/screenshots/config/behaviors/project.webp)
 
 ## [trim](https://github.com/cappyzawa/trim.nvim)
@@ -65,6 +69,9 @@ More powerful than the built-in Neovim terminal.
 ## [neovim-session-manager](https://github.com/Shatur/neovim-session-manager)
 Provides a menu to save/load Neovim sessions.
 
+* To save the current session press `Space + S + s`
+* To find a session to load press `Space + S + f`
+
 ![neovim-session-manager screenshot](/img/screenshots/config/behaviors/session-manager.webp)
 
 ## [spectre](https://github.com/nvim-pack/nvim-spectre)
@@ -78,7 +85,7 @@ A search and replace panel for Neovim.
 ## [neo-tree](https://github.com/nvim-neo-tree/neo-tree.nvim)
 A project file tree viewer.
 
-* Press `Space + b` to toggle it.
+* Press `Space + e` to toggle it.
 
 ![neotree screenshot](/img/screenshots/config/behaviors/neotree.webp)
 
