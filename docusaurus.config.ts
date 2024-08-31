@@ -130,10 +130,12 @@ const config: Config = {
 			additionalLanguages: ["bash", "diff", "lua", "nix", "powershell", "toml"],
 		},
 		algolia: {
-			appId           : "MS4XF9Z1OE",
-			apiKey          : "d88c4dc9a8ebab02a753d7d950c61246",
-			indexName       : "normal-rsio",
-			contextualSearch: true,
+			// search api (readonly)
+			appId           : "4KF163T7SU",
+			apiKey          : "c5e199d178ce77df6e1eddd623864683",
+			indexName       : "normalnvimio",
+			contextualSearch: false,
+
 		},
 		announcementBar: {
 			id: "donate",
