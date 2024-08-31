@@ -81,7 +81,7 @@ Preview markdown as HTML `mental map` in your internet browser.
 
 ![markmap screenshot](/img/screenshots/config/dev/markmap.webp)
 
-## [neural](https://github.com/Neural-ChatGPT/neural.nvim)
+## [neural](https://github.com/dense-analysis/neural)
 ChatGPT code generator.
 
 * Press `<Space> + a` to `Ask ChatGPT`.
