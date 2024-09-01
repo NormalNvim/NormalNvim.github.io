@@ -90,7 +90,7 @@ A project file tree viewer.
 ![neotree screenshot](/img/screenshots/config/behaviors/neotree.webp)
 
 ## [nvim-ufo](https://github.com/kevinhwang91/nvim-ufo)
-Provide convenient folding functions we use in the key mappings.
+Provides convenient folding functions we use in the key mappings.
 
 ## [nvim-neoclip](https://github.com/AckslD/nvim-neoclip.lua)
 Clipboard manager Neovim plugin with Telescope integration.
@@ -108,7 +108,7 @@ Distraction-free mode.
 ![neoclip screenshot](/img/screenshots/config/behaviors/zen-mode.webp)
 
 ## [vim-suda](https://github.com/lambdalisue/vim-suda)
-Allow writing a file with sudo permissions.
+Allows writing a file with sudo permissions.
 
 * Press `Space + W` to write a buffer as sudo.
 
@@ -141,19 +141,19 @@ Autocompletes `[]`, `()`, `{}`, `''`, `""`.
 ![nvim-ts-autotag screenshot](/img/screenshots/config/behaviors/nvim-autopairs.webp)
 
 ## [lsp-signature](https://github.com/ray-x/lsp_signature.nvim)
-Show code documentation as you write functions parameters.
+Shows code documentation as you write functions parameters.
 
 ![lsp signature screenshot](/img/screenshots/config/behaviors/lsp-signature.webp)
 
 ## [nvim-lightbulb](https://github.com/kosayoda/nvim-lightbulb)
-Show a lightbulb under the cursor when a code action is available.
+Shows a lightbulb under the cursor when a code action is available.
 
 * You can use code actions with `Space + l + a`
 
 ![lightbulb screenshot](/img/screenshots/config/behaviors/lightbulb.webp)
 
 ## [distroupdate](https://github.com/Zeioth/distroupdate.nvim)
-Provide commands to update the distro from the current `git remote origin` of your Neovim config directory.
+Provides commands to update the distro from the current `git remote origin` of your Neovim config directory.
 
 ![distroupdate screenshot](/img/screenshots/config/behaviors/distroupdate.webp)
 

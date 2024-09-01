@@ -88,6 +88,13 @@ ChatGPT code generator.
 
 ![neural screenshot](/img/screenshots/config/dev/neural.webp)
 
+> Hint: To use neural, you must first set this next env var on your operative
+system.
+```
+OPENAI_API_KEY="my_key_here"
+```
+You can find your API key in [chatgpt's website](https://platform.openai.com/api-keys).
+
 ## [copilot](https://github.com/github/copilot.vim)
 GitHub Copilot integration.
 
