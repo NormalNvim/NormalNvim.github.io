@@ -19,7 +19,7 @@ You can check the full diff on GitHub [here](https://github.com/NormalNvim/Norma
 * ✨feat(`markdown`): Files are now rendered on normal mode.
 * ✨feat(`garbage-day.nvim`): We now ship a plugin to pause LSP servers when you are not using them to save resources.
 * ✨feat(`android support`): This versions supports android termux, including the compiler, and the debugger.
-* ✨feat(`compiler.nvim`): improved support for gradle (commit).
+* ✨feat(`compiler.nvim`): improved support for gradle.
 * ✨feat(`compiler.nvim`/`dooku.nvim`/`markmap.nvim`): All the plugins we maintain now support paths with spaces.
 * ✨feat(`nvim`): Added support for `nvim 0.10`. All the plugins we maintain have been ported to nvim 0.10 too.
 * ⚡perf(`greeter`): Now open nvim considerably faster.
@@ -55,7 +55,7 @@ You can check the full diff on GitHub [here](https://github.com/NormalNvim/Norma
 
 ## Minor fixes
 * 🐛fix(`highlight-undo.nvim`): config adapted to their latest version. Colors are now consistent.
-* 🐛fix(`codelens`): the mapping space + u + L now refreshes codelens when toggling it on. (commit).
+* 🐛fix(`codelens`): the mapping space + u + L now refreshes codelens when toggling it on.
 * 🐛fix(`codelens`): ocassional notification when resuming from garbage-day.nvim has been fixed here and here.
 * 🐛fix(`lsp`): This version fix rare border cases where LSP mappings were not added correctly (remarkably, on java).
 * 🐛fix(`formatting`): The mapping Space + l + f now run :checktime to reflect the changes in the editor immediately.
@@ -78,7 +78,6 @@ without removing any feature.
 * ♻️refactor(`nvim-ts-autopairs`): Has been moved to `1-base-behaviors.lua`.
 * ♻️refactor(`better-scape`): Updated to latest version. Removed unnecessary option. The author has rewritten the plugin from scratch.
 * ♻️refactor(`autotag`): Updated to latest version. Removed unnecessary option from treesitter.
-and another few minor hundreds of changes.
 * ♻️refactor(`space + f + t`): won't display the builtin nvim themes anymore.
 * ♻️refactor(`none-ls`): Some packages have been deprecated and changed by new ones. See [here](https://github.com/NormalNvim/NormalNvim/releases/tag/v3.7.3).
 * ♻️refactor(`zen_mode`): is now under `<space> + u + z`, with all the other toggles.
