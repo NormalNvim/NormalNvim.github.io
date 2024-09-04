@@ -28,7 +28,7 @@
 <li>✨feat(<code>markdown</code>): Files are now rendered on normal mode.</li>
 <li>✨feat(<code>garbage-day.nvim</code>): We now ship a plugin to pause LSP servers when you are not using them to save resources.</li>
 <li>✨feat(<code>android support</code>): This versions supports android termux, including the compiler, and the debugger.</li>
-<li>✨feat(<code>compiler.nvim</code>): improved support for gradle (commit).</li>
+<li>✨feat(<code>compiler.nvim</code>): improved support for gradle.</li>
 <li>✨feat(<code>compiler.nvim</code>/<code>dooku.nvim</code>/<code>markmap.nvim</code>): All the plugins we maintain now support paths with spaces.</li>
 <li>✨feat(<code>nvim</code>): Added support for <code>nvim 0.10</code>. All the plugins we maintain have been ported to nvim 0.10 too.</li>
 <li>⚡perf(<code>greeter</code>): Now open nvim considerably faster.</li>
@@ -65,7 +65,7 @@
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="minor-fixes">Minor fixes<a href="https://normalnvim.github.io/blog/what-is-new-on-4-0/#minor-fixes" class="hash-link" aria-label="Direct link to Minor fixes" title="Direct link to Minor fixes">​</a></h2>
 <ul>
 <li>🐛fix(<code>highlight-undo.nvim</code>): config adapted to their latest version. Colors are now consistent.</li>
-<li>🐛fix(<code>codelens</code>): the mapping space + u + L now refreshes codelens when toggling it on. (commit).</li>
+<li>🐛fix(<code>codelens</code>): the mapping space + u + L now refreshes codelens when toggling it on.</li>
 <li>🐛fix(<code>codelens</code>): ocassional notification when resuming from garbage-day.nvim has been fixed here and here.</li>
 <li>🐛fix(<code>lsp</code>): This version fix rare border cases where LSP mappings were not added correctly (remarkably, on java).</li>
 <li>🐛fix(<code>formatting</code>): The mapping Space + l + f now run <!-- -->:checktime<!-- --> to reflect the changes in the editor immediately.</li>
@@ -87,8 +87,7 @@ without removing any feature.</p>
 <li>♻️refactor(<code>distroupdate.nvim</code>): Command names have been changed from the prefix <code>:Nvim</code> to the prefix <code>:Distro</code>.</li>
 <li>♻️refactor(<code>nvim-ts-autopairs</code>): Has been moved to <code>1-base-behaviors.lua</code>.</li>
 <li>♻️refactor(<code>better-scape</code>): Updated to latest version. Removed unnecessary option. The author has rewritten the plugin from scratch.</li>
-<li>♻️refactor(<code>autotag</code>): Updated to latest version. Removed unnecessary option from treesitter.
-and another few minor hundreds of changes.</li>
+<li>♻️refactor(<code>autotag</code>): Updated to latest version. Removed unnecessary option from treesitter.</li>
 <li>♻️refactor(<code>space + f + t</code>): won't display the builtin nvim themes anymore.</li>
 <li>♻️refactor(<code>none-ls</code>): Some packages have been deprecated and changed by new ones. See <a href="https://github.com/NormalNvim/NormalNvim/releases/tag/v3.7.3" target="_blank" rel="noopener noreferrer">here</a>.</li>
 <li>♻️refactor(<code>zen_mode</code>): is now under <code>&lt;space&gt; + u + z</code>, with all the other toggles.</li>
