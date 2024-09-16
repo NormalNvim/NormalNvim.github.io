@@ -16,7 +16,6 @@ Plugins that make the user interface better.
 - [heirline](#heirline)
 - [telescope](#telescope)
 - [telescope-fzf-native](#telescope-fzf-native)
-- [smart-splits](#smart-splits)
 - [dressing](#dressing)
 - [noice](#noice)
 - [nvim-web-devicons](#nvim-web-devicons)
@@ -69,12 +68,6 @@ This plugin is a user interface to fuzzy search.
 Uses fzf-native as backend for telescope. Written in C.
 
 ![telescope-fzf-native screenshot](/img/screenshots/config/ui/fzf.webp)
-
-## [smart-splits](https://github.com/mrjones2014/smart-splits.nvim)
-Convenient functions to resize Neovim windows.
-
-* Press `Ctrl + w + v` to create a vertical window.
-* Press `Ctrl + arrow` to resize it.
 
 ## [dressing](https://github.com/stevearc/dressing.nvim)
 Improves the visual appearance of `vim.ui.select` and `vim.ui.input`.
