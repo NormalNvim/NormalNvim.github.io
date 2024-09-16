@@ -58,6 +58,9 @@ Customize the behavior of closing buffers.
 ## [smart-splits](https://github.com/mrjones2014/smart-splits.nvim)
 Elegant window resize.
 
+* Press `ctrl + w + v` to open a new vertial window.
+* Then press `ctrl + arrow keys` to resize the window.
+
 ## [better-escape](https://github.com/max397574/better-escape.nvim)
 Removes the annoying delay Vim historically has had when pressing ESC.
 
