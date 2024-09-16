@@ -67,6 +67,9 @@ Removes the annoying delay Vim historically has had when pressing ESC.
 ## [toggleterm](https://github.com/akinsho/toggleterm.nvim)
 More powerful than the built-in Neovim terminal.
 
+* Press `F7` to toggle the terminal.
+* Alternatively, you can press `Space + t` to open it splitted.
+
 ![toggleterm.nvim screenshot](/img/screenshots/config/behaviors/toggleterm.webp)
 
 ## [neovim-session-manager](https://github.com/Shatur/neovim-session-manager)
