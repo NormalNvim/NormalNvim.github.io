@@ -29,6 +29,7 @@ Plugins that add new behaviors.
 - [nvim-autopairs](#nvim-autopairs)
 - [lsp-signature](#lsp-signature)
 - [nvim-lightbulb](#nvim-lightbulb)
+- [hot-reload](#hot-reload)
 - [distroupdate](#distroupdate)
 
 
@@ -157,6 +158,11 @@ Shows a lightbulb under the cursor when a code action is available.
 * You can use code actions with `Space + l + a`
 
 ![lightbulb screenshot](/img/screenshots/config/behaviors/lightbulb.webp)
+
+## [hot-reload](https://github.com/Zeioth/hot-reload.nvim)
+Reload your neovim config on the fly! It works with any lua file.
+
+![hot-reload screenshot](/img/screenshots/config/behaviors/hot-reload.webp)
 
 ## [distroupdate](https://github.com/Zeioth/distroupdate.nvim)
 Provides commands to update the distro from the current `git remote origin` of your Neovim config directory.
