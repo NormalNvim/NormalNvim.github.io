@@ -75,6 +75,7 @@ without removing any feature.
 * ♻️refactor(`base`): Complexity has been reduced several thousands of lines without losing any feature, or hiding complexity.
 * ♻️refactor(`base`): All functions without a case of use strong enough have been replaced by native nvim functions.
 * ♻️refactor(`distroupdate.nvim`): Command names have been changed from the prefix `:Nvim` to the prefix `:Distro`.
+* ♻️refactor(`hot-reload.nvim`): Has been separated from distroupdate.nvim as a new plugin.
 * ♻️refactor(`nvim-ts-autopairs`): Has been moved to `1-base-behaviors.lua`.
 * ♻️refactor(`better-scape`): Updated to latest version. Removed unnecessary option. The author has rewritten the plugin from scratch.
 * ♻️refactor(`autotag`): Updated to latest version. Removed unnecessary option from treesitter.
