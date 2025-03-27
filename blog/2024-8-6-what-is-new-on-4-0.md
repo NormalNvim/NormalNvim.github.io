@@ -6,9 +6,9 @@ authors: [zeioth]
 
 ## Some metrics
 
-* `Version 4.0` add `1282` commits over `NormalNvim 3.0` and over `10.000` non breaking changes.
-* This is the result of `1 year and 4 days of full time development`.
-* [56 new users have joined our discord channel](https://discord.gg/ymcMaSnq7d).
+* `Version 4.0` add `1460` commits over NormalNvim 3.0 and over `10.000` non breaking changes.
+* This is the result of `1 year and 71 days` of full time development.
+* [68 new users have joined our discord channel](https://discord.gg/ymcMaSnq7d).
 
 You can check the full diff on GitHub [here](https://github.com/NormalNvim/NormalNvim/compare/v3.0.0...v4.0.0-rc7).
 

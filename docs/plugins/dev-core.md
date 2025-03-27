@@ -9,7 +9,6 @@ Plugins that are just there.
 ## List of plugins
 
 - [nvim-treesitter](#nvim-treesitter) `TREESITTER`
-- [ts-comments](#ts-comments) `TREESITTER`
 - [render-markdown](#render-markdown) `TREESITTER`
 - [nvim-highlight-colors](#nvim-highlight-colors) `TREESITTER`
 - [nvim-java](#nvim-java) `LSP`
@@ -30,13 +29,6 @@ Plugins that are just there.
 
 ## [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 Syntax highlighting manager for Neovim.
-
-## [ts-comments](https://github.com/folke/ts-comments.nvim)
-You can comment your code pressing the keys `g + c + c` in normal mode.
-
-> Hint: Neovim already has this feature built-in. This plugin just improve language support.
-
-![ts-comments screenshot](/img/screenshots/config/dev-core/ts-comments.webp)
 
 ## [render-markdown](https://github.com/echasnovski/render-markdown.nvim)
 Render markdown while in normal mode. Great for note taking!
