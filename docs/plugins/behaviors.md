@@ -14,7 +14,6 @@ Plugins that add new behaviors.
 - [stickybuf](#stickybuf)
 - [mini-bufremove](#mini-bufremove)
 - [smart-splits](#smart-splits)
-- [better-escape](#better-escape)
 - [toggleterm](#toggleterm)
 - [neovim-session-manager](#neovim-session-manager)
 - [spectre](#spectre)
@@ -61,9 +60,6 @@ Elegant window resize.
 
 * Press `ctrl + w + v` to create a vertial window.
 * Press `ctrl + arrow keys` to resize it.
-
-## [better-escape](https://github.com/max397574/better-escape.nvim)
-Removes the annoying delay Vim historically has had when pressing ESC.
 
 ## [toggleterm](https://github.com/akinsho/toggleterm.nvim)
 More powerful than the built-in Neovim terminal.
